@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"myproject\startup_stm32f411xe.o"
+"myproject\main.o"
+"myproject\stm32f4xx_it.o"
+"myproject\stm32f4xx_hal_msp.o"
+"myproject\stm32f4xx_hal_i2c.o"
+"myproject\stm32f4xx_hal_i2c_ex.o"
+"myproject\stm32f4xx_hal_rcc.o"
+"myproject\stm32f4xx_hal_rcc_ex.o"
+"myproject\stm32f4xx_hal_flash.o"
+"myproject\stm32f4xx_hal_flash_ex.o"
+"myproject\stm32f4xx_hal_flash_ramfunc.o"
+"myproject\stm32f4xx_hal_gpio.o"
+"myproject\stm32f4xx_hal_dma_ex.o"
+"myproject\stm32f4xx_hal_dma.o"
+"myproject\stm32f4xx_hal_pwr.o"
+"myproject\stm32f4xx_hal_pwr_ex.o"
+"myproject\stm32f4xx_hal_cortex.o"
+"myproject\stm32f4xx_hal.o"
+"myproject\stm32f4xx_hal_exti.o"
+"myproject\stm32f4xx_hal_tim.o"
+"myproject\stm32f4xx_hal_tim_ex.o"
+"myproject\stm32f4xx_hal_uart.o"
+"myproject\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "myProject\myProject.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "myProject.map" -o myProject\myProject.axf

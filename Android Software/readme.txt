@@ -1,0 +1,2 @@
+- File *.aia phai Import vao trang web cua MIT App Inventor 2
+- File *.apk la file cai dat tren smartphone Android
